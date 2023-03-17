@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ro-RO">
+<head>
+<title>Page Title</title>
+<meta charset="UTF-8">
+<link href="D:/an3S2/pw/ProiectPW/proiect-1-CosminSergiu/CSS/stil.css" rel="stylesheet">
+
+</head>
+<body>
+    <nav>
+        <a id="acasa" href="file:///D:/an3S2/pw/ProiectPW/proiect-1-CosminSergiu/HTML-file/index.html">Acasa</a> ||
+        <a id="despre" href="file:///D:/an3S2/pw/ProiectPW/proiect-1-CosminSergiu/HTML-file/despre.html">Despre</a> |
+        <a id="inregistreaza" href="file:///D:/an3S2/pw/ProiectPW/proiect-1-CosminSergiu/HTML-file/inregistreaza.html">Inregistreaza</a> |
+        <a id="video" href="file:///D:/an3S2/pw/ProiectPW/proiect-1-CosminSergiu/HTML-file/video.html">Video</a> |
+      </nav>
+<h1 class="titluInregistreaza">Inregistreaza <img id="imagine" title="Inregistreaza" src="https://cdn-icons-png.flaticon.com/512/88/88450.png" height="40"/></h1>
+
+<form id="Forminregistreaza">
+    <fieldset>
+        <legend>Utilizator</legend>
+        <label for="numeUser">Nume utilizatore: </label>
+        <input type="text" id="numeUser" name="numeUser" placeholder="Numele tau de user.."/><br>
+        <label for="parola">Parola: </label>
+        <input type="password" id="parola" name="parola" placeholder="Parola.."><br/>
+        <label for="nume">Nume:</label>
+        <input type="text" id="nume" name="nume" placeholder="Numele tau.."/><br>
+        <label for="prenume">Prenume: </label>
+        <input type="text" id="prenume" name="prenume" placeholder="Prenumele tau.."/><br>
+        <label for="email">Email: </label>
+        <input type="email" id="email" name="email" placeholder="Adresa de mail.."/><br>
+        <label for="telefon">Telefon: </label>
+        <input type="tel" id="telefon" name="telefon" placeholder="Telefon.."/><br><br>
+    </fieldset><br>
+    <fieldset>
+        <legend>Informatii personale</legend>
+        <label for="sex">Sex:</label>
+        <select name="sex" id="sex">
+            <option value="feminin">Feminin</option>
+            <option value="masculin">Masculin</option>
+            <option value="nuSex">Prefer sa nu spun!</option>
+        </select><br>
+        <label for="supliments">Supliment preferat:</label>
+        <input list="supliments" name="supliment" id="supliments">
+        <datalist  id="supliment">
+            <option value="Proteine">
+            <option value="Creatina">
+            <option value="Preworkout">
+        </datalist><br>
+        <label for="culoare">Culoare preferata:</label>
+        <input type="color" id="culoare" name="color"/><br>
+        <label for="data">Data nasterii:</label>
+        <input type="date" id="data" name="data"/><br>
+        <label for="varsta">Varsta:</label>
+        <input type="range" id="varsta" name="varsta"/><br>
+        <label for="addr">Adresa web:</label>
+        <input type="url" id="addr" name="addr"/><br>
+        <label for="descriere">Descriere:</label><br>
+        <textarea id="descriere" name="descrierea"></textarea><br>
+
+    </fieldset>
+    
+    <input type="submit">
+</form>
+<footer>
+    <p>&copy;<a href="https://www.instagram.com/cosmin_sergiu27/"> Milica Cosmin-Sergiu</a> <br>
+    
+</footer>
+</body>
+</html>
